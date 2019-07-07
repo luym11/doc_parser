@@ -7,8 +7,7 @@ pip install pandas
 grep -l 'Chairman' $(grep -lr 'Jeff' .)
 
 # This command converts .doc to .md file
-pandoc xxx.doc -f doc -t markdown -s -o 
-test_doc.md
+pandoc xxx.doc -f doc -t markdown -s -o test_doc.md
 
 # Then run the following command if you want all the words said by 'Charles\nMorgan'
 python parser.py 'Charles\nMorgan'
